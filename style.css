@@ -95,31 +95,52 @@ background-color: lime;
 /* BEFORE MINING CODE */
 
 .tile[data-type="diamond"] {
-  background-color: #353535;
+  background-image: url('images/ground.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tile[data-type="gold"] {
-  background-color: #353535;
+  background-image: url('images/ground.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tile[data-type="silver"] {
-  background-color: #353535;
+  background-image: url('images/ground.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tile[data-type="ore"] {
-  background-color: #353535;
+  background-image: url('images/ground.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tile[data-type="stone"] {
-  background-color: #353535;
+  background-image: url('images/ground.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tile[data-type="clay"] {
-  background-color: #353535;
+  background-image: url('images/ground.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tile[data-type="bone"] {
-  background-color: #353535;
+  background-image: url('images/ground.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tile[data-type="dirt"] {
