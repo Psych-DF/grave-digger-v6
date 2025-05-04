@@ -52,7 +52,7 @@ function centerCameraOnPlayer() {
 let moveInterval = null;
 let heldDirection = null;
 let lastMoveTime = 0;
-const moveCooldown = 250; // in milliseconds
+const moveCooldown = 150; // in milliseconds
 
 function movePlayer(key) {
   const now = Date.now();
