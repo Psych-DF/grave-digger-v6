@@ -53,7 +53,7 @@ function initGame() {
   // Set up background music if not already added
   if (!document.getElementById("bg-music")) {
     const music = document.createElement("audio");
-    music.src = "assets/audio/music.mp3";
+    music.src = "music/glitch.mp3";
     music.id = "bg-music";
     music.loop = true;
     music.volume = 0.5;
