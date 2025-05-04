@@ -34,7 +34,7 @@ body {
   display: grid;
   grid-template-columns: repeat(500, 24px);
   grid-template-rows: repeat(500, 24px);
-  gap: 2px;
+  gap: 0px;
   /* REMOVE these two lines 👇 */
   /* margin: 0 auto;
   margin-top: 20px; */
