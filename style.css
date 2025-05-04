@@ -23,6 +23,7 @@ body {
   scrollbar-width: none;        /* Firefox */
   -ms-overflow-style: none;     /* IE and Edge */
   position: relative;
+  background-color: black;
 }
 
 #game-wrapper::-webkit-scrollbar {
