@@ -157,56 +157,56 @@ background-color: lime;
 /* AFTER MINING CODE */
 
 .tile.mined[data-type="diamond"] {
-  background-image: url('images/rock.png');
+  background-image: url('images/bone.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .tile.mined[data-type="gold"] {
-  background-image: url('images/rock.png');
+  background-image: url('images/bone.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .tile.mined[data-type="silver"] {
-  background-image: url('images/rock.png');
+  background-image: url('images/bone.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .tile.mined[data-type="ore"] {
-  background-image: url('images/rock.png');
+  background-image: url('images/bone.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .tile.mined[data-type="stone"] {
-  background-image: url('images/rock.png');
+  background-image: url('images/bone.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .tile.mined[data-type="clay"] {
-  background-image: url('images/rock.png');
+  background-image: url('images/bone.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .tile.mined[data-type="bone"] {
-  background-image: url('images/rock.png');
+  background-image: url('images/bone.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .tile.mined[data-type="dirt"] {
-  background-image: url('images/rock.png');
+  background-image: url('images/bone.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
