@@ -1,20 +1,18 @@
-// js/game.js
-import { createGrid, gridWidth, gridHeight } from './grid.js';
-import { player } from './player.js';
-import { mineTile } from './mining.js';
-import { getTile } from './grid.js';
-
-
-let mineTimeout = null;
-
 export function initGame() {
   const gameContainer = document.getElementById("game");
   const oreDisplay = document.getElementById("ore-count");
 
+  // ✅ Set up background music if not already added
+  if (!document.getElementById("bg-music")) {
+    const music = document.createElement("audio");
+    music.src = "music/glitch.mp3"; // make sure this path is correct
+    music.id = "bg-music";
+    music.loop = true;
+    music.volume = 0.5;
+    document.body.appendChild(music);
+  }
 
-
-
-  // Reset state
+  // ✅ Reset game state
   player.ore = 0;
   oreDisplay.textContent = "0";
   gameContainer.innerHTML = "";
@@ -45,22 +43,6 @@ function centerCameraOnPlayer() {
       inline: "center"
     });
   }
-}
-/* TRIGGER AUDIO */
-function initGame() {
-  const gameContainer = document.getElementById("game");
-
-  // Set up background music if not already added
-  if (!document.getElementById("bg-music")) {
-    const music = document.createElement("audio");
-    music.src = "music/glitch.mp3";
-    music.id = "bg-music";
-    music.loop = true;
-    music.volume = 0.5;
-    document.body.appendChild(music);
-  }
-
-  // ... rest of your game setup
 }
 /* TRIGGER AUDIO */
 /* PLAYER MOVEMENT CONTROLS */
