@@ -122,7 +122,10 @@ background-color: lime;
 }
 
 .tile[data-type="dirt"] {
-  background-color: #353535;
+  background-image: url('images/ground.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tile[data-type="rock"] {
