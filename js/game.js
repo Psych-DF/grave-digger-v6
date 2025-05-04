@@ -46,7 +46,23 @@ function centerCameraOnPlayer() {
     });
   }
 }
+/* TRIGGER AUDIO */
+function initGame() {
+  const gameContainer = document.getElementById("game");
 
+  // Set up background music if not already added
+  if (!document.getElementById("bg-music")) {
+    const music = document.createElement("audio");
+    music.src = "assets/audio/music.mp3";
+    music.id = "bg-music";
+    music.loop = true;
+    music.volume = 0.5;
+    document.body.appendChild(music);
+  }
+
+  // ... rest of your game setup
+}
+/* TRIGGER AUDIO */
 /* PLAYER MOVEMENT CONTROLS */
 
 let moveInterval = null;
