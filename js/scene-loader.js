@@ -25,25 +25,17 @@ async function handleKeyPress(e) {
   if (e.key === "Enter") {
     if (currentScene === "start-screen") {
       await loadScene("game-play-screen");
-    } else if (currentScene === "game-over-screen") {
-      await loadScene("start-screen");
-    }
-  }
-}
 
-async function handleKeyPress(e) {
-  if (e.key === "Enter") {
-    if (currentScene === "start-screen") {
-      await loadScene("game-play-screen");
-
-      // Safe to play music now that user interacted
+      // ✅ Play music after user interaction
       const music = document.getElementById("bg-music");
       if (music) music.play();
+      
     } else if (currentScene === "game-over-screen") {
       await loadScene("start-screen");
     }
   }
 }
+
 
 async function init() {
   await loadScene("start-screen");
