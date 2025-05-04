@@ -129,7 +129,7 @@ background-color: lime;
 }
 
 .tile[data-type="rock"] {
-  background-color: #353535;
+  background-color: #000000;
 }
 
 /* AFTER MINING CODE */
